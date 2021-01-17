@@ -1,0 +1,259 @@
+@charset "utf-8";
+
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                共通の設定
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	color: #695857;
+
+}
+
+body {
+	line-height: 1.7;
+}
+
+img {
+	width: 100%;
+}
+
+/*------- ヘッダー -------*/
+header {
+	width: 100%;
+	height: 65px;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+
+
+.toi {
+	color: #695857;
+	font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Yellowtail', cursive;
+}
+
+.toi  {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 5px solid #ede094;
+	margin: 30px 0; 
+}
+
+.toi a {
+	padding-top: 30px;
+}
+/*------- info-wrapper -------*/
+.info-list {
+	border: 2px solid #ede094;
+	background-color: #695857; 
+	margin: 30px 0;
+	padding: 0.2em 0.5em;
+	border-radius: 8px;
+}
+
+.info-list p {
+	padding: 10px 0;
+	color: #ede094;
+	border-bottom: dashed 2px #ede094;
+	font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Yellowtail', cursive;
+    text-align: center;
+}
+
+.info-list p:before {
+	color: #ede094;
+	content: '●';
+	margin-right: 8px;
+}
+
+.info-list p:last-child {
+	border-bottom: none;
+}
+
+
+/*------- thework -------*/
+.theworks {
+	display: flex;
+}
+
+.thework {
+	text-align: center;
+	padding-bottom: 30px;
+	position: relative;
+}
+
+.workimg {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding-right: 5px; 
+	
+
+}
+
+.thework p {
+	color: #695857;
+	font-size: 30px;
+	font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Yellowtail', cursive;
+    position: absolute;
+    top: 44%;
+    width: 100%;
+}
+
+
+/*------- フッター -------*/
+footer {
+	height: 65px;
+	background-color: #695857;
+
+
+}
+
+footer i {
+	margin: 0 10px;
+}
+
+footer p {
+	font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Yellowtail', cursive;
+    color: #ede094;
+    text-align: center;
+    line-height: 65px;
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+             Inquiries.CSS
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+#inquiries {
+	background-image: url(image24.jpg);
+	min-height: 75vh;
+
+	position: relative;
+}
+.quti {
+    position: absolute;
+	top: 30%;
+	left: 30%;
+}
+
+h2 {
+	color: #695857;
+	font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Yellowtail', cursive;
+}
+
+label {
+	margin-bottom: 5px;
+	display: block;
+	font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Yellowtail', cursive;
+    color: #695857;
+}
+
+input[type="txet"],
+input[type="email"],
+textarea {
+	background: rgba(255,255,255,.5);
+	border: 1px solid #695857;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 1rem;
+}
+
+input[type="submit"] {
+	background-color: #695857;
+	padding: 20px 60px;
+	cursor: pointer;
+	line-height: 1;
+	color: #ede094;
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+             Page.CSS
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+#page {
+	display: flex;
+	padding-top: 100px;
+}
+
+/*--  Left --*/
+.left {
+	background-image: url(image50.jpeg);
+	width: 75%;
+	height: 100vh;
+}
+
+.left_box{
+	padding-top: 20px;
+	width: 850px;
+	height: 390px;
+	background-color: rgba(255,255,255,.5);
+}
+
+.articles {
+	display: flex;
+}
+
+.articles img {
+	width: 350px;
+	height: 350px;
+	margin-left: 20px;
+}
+
+#text {
+	margin: 0 auto;
+	text-align: center;
+	color: #695857;
+	font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Yellowtail', cursive;
+}
+#text h3 {
+	border-bottom: 2px solid #695857;
+	font-size: 40px;
+}
+
+#text span {
+	font-size: 15px;
+}
+
+#txt {
+	padding-top: 150px;
+}
+/*--  Right --*/
+.right {
+	width: 25%;
+	height: 100vh;
+	background-color: rgba(136,110,133,.5);
+}
+.right h4 {
+	text-align: center; 
+	padding: 20px 0 5px 0;
+	color: #695857;
+	font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Yellowtail', cursive;
+}
+.right p {
+	color: #695857;
+	font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Yellowtail', cursive;
+}
+
+.right a {
+	color: #ede094;
+}
+
+.right_list {
+	margin: 0 auto;
+	width: 280px;
+	height: 150px;
+	background-color: #695857;
+}
